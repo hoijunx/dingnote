@@ -12,7 +12,7 @@ def dingding_409robot(data):
 if __name__ == "__main__":
     data = {
         "msgtype": "text",
-        "text": { "content":"我是机器人1号" }
+        "text": { "content":"我是机器人1号，提醒你，测试成功" }
         }
     res = dingding_409robot(data)
     print(res) 
