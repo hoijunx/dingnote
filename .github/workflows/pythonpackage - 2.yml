@@ -7,7 +7,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '15 12 * * *'
 jobs:
   build:
 
@@ -28,5 +28,5 @@ jobs:
         pip install -r requirements.txt
     - name: run task
       run: |
-        python note.py
+        python note2.py
       
